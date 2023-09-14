@@ -29,6 +29,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 }
-//  require("tailwind-scrollber-hide")
+ 

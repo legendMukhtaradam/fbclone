@@ -11,7 +11,7 @@ import {uploadString,getDownloadURL,ref ,getStorage} from "firebase/storage";
 function InputBox() {    
     const {data:session} = useSession();
     const inputRef = useRef(null);
-    const filepickerRef = useRef(null)
+    const filepickerRef = useRef(null);
     const [imageToPost,setImageToPost] = useState(null)
 
     const sendPost = async (e) =>{
